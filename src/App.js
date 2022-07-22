@@ -1,17 +1,16 @@
-
-
-
-
+/*eslint-disable import/first*/
+import React from 'react'
+import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
 import {useState, useEffect} from "react";
-import './App.css';
 import { Button, Spinner, Image, Skeleton, Input } from '@chakra-ui/react'
+import './App.css';
 import Card from "./components/Card";
 import Navbar from "./components/Navbar";{/*se importa el Navbar del archivo Navbar*/}
-import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
+import SignIn from "./components/SignIn";
 import Detalle from "./components/Detalle";
 import ListaCasas from "./components/ListaCasas";
-import {BrowserRouter as Router,Routes,Route,Link} from "react-router-dom";
+
 
 
 function App() {
